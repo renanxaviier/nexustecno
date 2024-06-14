@@ -1,0 +1,37 @@
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.service-box {
+    background-color: white;
+    padding: 50px;
+    border-radius: 100px;
+    margin-bottom: 100px;
+}
+
+.service-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.service-list li {
+    margin-bottom: 50px;
+}
+
+.service-list li::before {
+    content: "\279C"; /* Unicode character for ➔ */
+    margin-right: 5px;
+    color: white;
+}
+
+.container {
+    max-width: 1000px; /* Ajusta o tamanho máximo do container */
+}
+
+@media (min-width: 768px) {
+    .row {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
