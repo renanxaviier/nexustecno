@@ -355,7 +355,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 2px solid #455A64; }
+  border-top: 2px solid #fcf8e3; }
 
 small,
 .small {
@@ -2203,7 +2203,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #3d5afe;
+  color: #fcf8e3;
   background-color: transparent; }
   .btn-link:hover {
     color: #0121d4;
